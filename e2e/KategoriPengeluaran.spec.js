@@ -19,7 +19,7 @@ Scenario('1 Add Kategori Pengeluaran', async ({ I }) => {
   I.click('.profile__link');
   I.wait(5);
 
-  I.click('Kelola Pengeluaran');
+  I.click('Kategori Pengeluaran');
   I.wait(5);
   I.click('.add-spending');
   I.wait(5);
@@ -49,7 +49,7 @@ Scenario('2 Edit Kategori Pengeluaran', async ({ I }) => {
   I.click('.profile__link');
   I.wait(5);
 
-  I.click('Kelola Pengeluaran');
+  I.click('Kategori Pengeluaran');
   I.wait(5);
   I.click('btnIconEditSpending');
   I.wait(5);
@@ -79,7 +79,7 @@ Scenario('3 Delete Kategori Pemasukan', async ({ I }) => {
   I.click('.profile__link');
   I.wait(5);
 
-  I.click('Kelola Pengeluaran');
+  I.click('Kategori Pengeluaran');
   I.wait(5);
   I.click('btnIconDeleteSpending');
   I.wait(5);

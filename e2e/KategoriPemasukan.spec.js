@@ -19,7 +19,7 @@ Scenario('1 Add Kategori Pendapatan', async ({ I }) => {
   I.click('.profile__link');
   I.wait(5);
 
-  I.click('Kelola Pendapatan');
+  I.click('Kategori Pendapatan');
   I.wait(5);
   I.click('.add-earning');
   I.wait(5);
@@ -49,7 +49,7 @@ Scenario('2 Edit Kategori Pendapatan', async ({ I }) => {
   I.click('.profile__link');
   I.wait(5);
 
-  I.click('Kelola Pendapatan');
+  I.click('Kategori Pendapatan');
   I.wait(5);
   I.click('btnIconEditEarning');
   I.wait(5);
@@ -79,7 +79,7 @@ Scenario('3 Delete Kategori Pendapatan', async ({ I }) => {
   I.click('.profile__link');
   I.wait(5);
 
-  I.click('Kelola Pendapatan');
+  I.click('Kategori Pendapatan');
   I.wait(5);
   I.click('btnIconDeleteEarning');
   I.wait(5);
